@@ -5,7 +5,7 @@ html {
 .masthead {
   background-image: url("../images/leaf-bg.svg");
   background-color: #588477;
-  color: white;
+  color: #fff;
   border-top: 3px solid #2d5a4d;
   border-bottom: 3px solid #2d5a4d;
 }
@@ -20,19 +20,21 @@ html {
 
 .nav a {
   text-decoration: none;
-  color: white;
+  color: #fff;
   border: 3px solid #2d5a4d;
   background-color: #467366;
   border-radius: 8px;
 }
 
 .nav a:hover {
-  background-color: white;
+  background-color: #fff;
   color: #145b1d;
+  background-image: url("../images/leaf-icon.svg");
+  background-size: contain;
 }
 
 .banner {
-  background-image: url("../images/leaf.jpg");
+  background-image: linear-gradient(to bottom, transparent, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-size: cover;
   background-position: center bottom;
 }
